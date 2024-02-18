@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  width: 60%;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  margin: 0 auto;
+  background-color:  #61dafb;
+  border-radius: 2rem;
+}
+
+.first{
+  width: 100%;
+  font-weight: bold;
+  padding: 1rem 2rem;
+}
+.second{
+  font-weight: bold;
+}
+
+.first input {
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+h1{
+  text-align: center;
+}
+
+button{
+  border-radius: 1rem ;
+  padding: 1rem;
+  margin: 0.2rem;
+  width:5rem;
+  cursor: pointer;
+  font: size 0.9em;
+}
+
+
+
+#register,#update{
+  width: 50%;
+  background-color: #61dafb;
+  color: #61dafb;
+}
+
+#register{
+  text-align: right;
+}
+#register button {
+  background-color: green;
+  color: white;
+  text-align: center;
+  width: 7rem;
+}
+
+#update button {
+  background-color: #070b16;
+  color: white;
+  width: 7rem;
+  height: 3rem;
+}
+
+
+
+.table-dark{
+  /* background-color: darkblue; */
+  /* border-collapse: collapse; */
+  width: 60%;
+  box-shadow: 10px 10px 10px;
+  font-weight: bold;
+}
+
+thead{
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+.table-dark td {
+  padding: 1rem;
+  text-wrap: wrap; 
+  width: 2rem;
+  text-align: center;
+}
+.btn-warning, .btn-danger{
+  display: inline-block;
+}
+
+.btn-warning {
+  background-color: #070b16;
+  color: white;
+}
+.btn-danger{
+  background-color: rgb(118, 13, 13);
+  color: white;
+
+}
+
+
+td:first-child,td:last-child{
+  width: 2rem;
+}
+
+.table-dark td{
+  background-color: #61dafb;
+  border: 1px dotted blue;
+}
